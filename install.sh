@@ -436,7 +436,7 @@ EOFSS
     isproxy=system
     for i in `seq 1 $number`;
     do
-        file="/root/9Hits/9HitsViewer_x64/sessions/$i.json"
+        file="/root/9Hits/9HitsViewer_x64/sessions/ss$i.json"
 cat > $file <<EOFSS
 {
     "name": "ss$i",
