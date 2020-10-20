@@ -439,7 +439,7 @@ EOFSS
         file="/root/9Hits/9HitsViewer_x64/sessions/$i.json"
 cat > $file <<EOFSS
 {
-    "name": "$i",
+    "name": "ss$i",
     "note": "$note",
     "proxy": {
         "type": "$isproxy",
